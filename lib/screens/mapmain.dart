@@ -11,7 +11,7 @@ class MapMain extends StatelessWidget {
     return FutureProvider(
       create: (context) => geoService.getInitialLocation(),
       child: MaterialApp(
-        title: 'Tracking',
+        title: 'Family Tracking',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
